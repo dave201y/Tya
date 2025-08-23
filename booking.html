@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Now | TYA Auto Detail</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="Gorilla.png" alt="TYA Logo" class="logo"/></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="booking.html">Book Now</a>
+    </nav>
+  </header>
+
+  <main class="booking">
+  <h2 style="color:#222;">Book Your Detail</h2>
+  <p style="color:#444;">A $25 deposit is required to confirm your appointment.</p>
+    <form action="#" method="POST">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <select required>
+        <option value="">Select Service</option>
+        <option>Ultimate Transformation</option>
+        <option>Interior Detail</option>
+        <option>Exterior Detail</option>
+        <option>Standard Maintenance</option>
+      </select>
+      <select required>
+        <option value="">Vehicle Type</option>
+        <option>Sedan</option>
+        <option>Mid-Size SUV</option>
+        <option>3-Row SUV / Truck</option>
+      </select>
+      <input type="date" required />
+      <textarea placeholder="Additional Notes (optional)"></textarea>
+      <button type="submit">Submit Booking</button>
+    </form>
+  </main>
+</body>
+</html>
