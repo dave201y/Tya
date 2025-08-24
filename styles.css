@@ -32,104 +32,19 @@ nav {
   width: 80px;
   filter: drop-shadow(0 2px 6px #d1a954);
 }
+.logo {
+  width: 80px;
+  filter: drop-shadow(0 2px 6px #d1a954);
+}
 nav a {
   color: #d1a954;
   margin-left: 1.5rem;
   text-decoration: none;
   font-weight: 600;
   background: transparent;
-    .navbar .container {
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .logo {
-      width: 48px;
-      min-width: 48px;
-      margin-right: 8px;
-    }
-    nav {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      width: auto;
-      background: transparent;
-    }
-    nav a {
-      margin: 0 0.5rem;
-      display: inline-block;
-      width: auto;
-      text-align: center;
-      font-size: 1rem;
-      padding: 0.5rem 0.7rem;
-    }
-    .hero-overlay h1 {
-      font-size: 2rem;
-      padding: 0 0.5rem;
-    }
-    .hero-overlay p {
-      font-size: 1rem;
-      padding: 0 0.5rem;
-    }
-    .hero-buttons .btn {
-      width: 100%;
-      font-size: 1rem;
-      margin: 0.5rem 0;
-      padding: 0.8rem;
-    }
-    .intro-section {
-      padding: 1.5rem 0.5rem;
-    }
-    .intro-section h2 {
-      font-size: 1.1rem;
-    }
-    .about-section .container,
-    .contact-section .container,
-    .values-section {
-      padding: 1rem 0.5rem;
-      max-width: 100%;
-    }
-    .about-grid,
-    .contact-grid,
-    .values-container {
-      flex-direction: column !important;
-      gap: 1rem;
-    }
-    .about-img img,
-    .value-item img {
-      max-width: 100%;
-      height: auto;
-    }
-    .service-grid,
-    .gallery-grid {
-      grid-template-columns: 1fr;
-      gap: 1rem;
-    }
-    .service-card,
-    .gallery-item {
-      padding: 1rem;
-      width: 100%;
-    }
-    .site-footer {
-      padding: 16px 5px;
-      font-size: 0.95rem;
-    }
-    .footer-logo {
-      width: 32px;
-    }
-    .social-icons a {
-      font-size: 1rem;
-      margin: 0 4px;
-    }
-    input, select, textarea, button {
-      font-size: 1rem;
-      padding: 0.7rem;
-      width: 100%;
-      margin-bottom: 1rem;
-      box-sizing: border-box;
-    }
-  margin-bottom: 1rem;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  transition: color 0.3s;
 }
 .intro-section p {
   font-size: 1rem;
